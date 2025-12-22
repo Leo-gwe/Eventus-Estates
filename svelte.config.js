@@ -6,7 +6,10 @@ export default {
 			pages: 'build',
 			assets: 'build',
 			fallback: 'index.html'
-		})
+		}),
+
+		paths: {
+			base: '/Eventus-Estates'
+		}
 	}
 };
-
