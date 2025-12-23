@@ -7,15 +7,15 @@
 	/* ===============================
 	   IMAGES (STATIC, DEPLOYMENT SAFE)
 	   =============================== */
-	const DEFAULT_IMAGE = 'images/IMG_0142_logo.jpeg';
+	const DEFAULT_IMAGE = '/images/IMG_0142_logo.jpeg';
 
 	const sampleItems = [
 		{
 			id: 'coventry-refitted',
 			title: 'Newly Refitted Off-Licence – Coventry',
 			price: 'Rent: £950 pcm (Ground Floor)',
-			image: 'images/IMG_1410.jpeg',
-			images: ['images/IMG_1410.jpeg'],
+			image: '/images/IMG_1410.jpeg',
+			images: ['/images/IMG_1410.jpeg'],
 			short: 'Newly refitted off-licence in a busy, well-established area.',
 			details: `An exciting opportunity to take over a newly refitted off-licence situated in a busy and well-established area of Coventry.
 
