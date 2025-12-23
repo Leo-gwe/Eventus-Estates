@@ -1,5 +1,7 @@
 <script>
 	// No browser-only APIs here (SSR safe)
+	import SectionWrapper from '../components/sectionWrapper.svelte';
+	import { goto } from '$app/navigation';
 </script>
 
 <section class="relative min-h-[70vh] w-full overflow-hidden">
@@ -28,7 +30,7 @@
 
 			<div class="mt-8 flex justify-center">
 				<a
-					href="/properties"
+					href="properties"
 					class="inline-flex cursor-pointer items-center justify-center rounded-md
 						   bg-yellow-400 px-8 py-3 font-semibold text-[#162E52]
 						   transition hover:bg-white hover:text-[#162E52]

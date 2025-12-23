@@ -3,8 +3,9 @@
 
 	const links = [
 		{ label: 'Home', href: '/' },
-		{ label: 'Properties', href: '/properties' },
-		{ label: 'Contact', href: '/contact' }
+		{ label: 'Properties', href: 'properties' },
+		// { label: 'Contact', href: 'contact' }
+		// { label: 'About', href: 'about' }
 	];
 </script>
 
