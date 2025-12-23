@@ -6,8 +6,9 @@ export default {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: '/Eventus-Estates',
-			assets: '/Eventus-Estates'
+			base: '/Eventus-Estates'
+			// ⚠️ DO NOT set assets for GitHub Pages
 		}
 	}
 };
+
