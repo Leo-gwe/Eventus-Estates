@@ -2,31 +2,22 @@
 	let menuOpen = false;
 
 	const links = [
-		{ label: 'Home', href: '/Eventus-Estates/' },
-		{ label: 'Properties', href: '/Eventus-Estates/properties' },
-		{ label: 'Contact', href: '/Eventus-Estates/contact' }
+		{ label: 'Home', href: '/' },
+		{ label: 'Properties', href: '/properties' },
+		{ label: 'Contact', href: '/contact' }
 	];
-
-	function toggleMenu() {
-		menuOpen = !menuOpen;
-	}
 </script>
 
 <header class="sticky top-0 z-50 bg-[#162E52]/90 backdrop-blur border-b border-white/10">
 	<div class="mx-auto max-w-7xl px-6">
 		<div class="flex h-16 items-center justify-between">
-			<a
-				href="/Eventus-Estates/"
-				class="flex items-center gap-3"
-			>
+			<a href="/" class="flex items-center gap-3">
 				<img
-					src="/Eventus-Estates/images/IMG_0142_logo.jpeg"
+					src="images/IMG_0142_logo.jpeg"
 					alt="Eventus Estates logo"
 					class="h-10 w-10 rounded-full"
 				/>
-				<span class="font-semibold text-white">
-					Eventus Estates
-				</span>
+				<span class="font-semibold text-white">Eventus Estates</span>
 			</a>
 
 			<nav class="hidden md:flex gap-8">
@@ -41,11 +32,12 @@
 			</nav>
 
 			<button
+				type="button"
 				class="md:hidden text-white"
-				on:click={toggleMenu}
 				aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+				on:click={() => (menuOpen = !menuOpen)}
 			>
-				<i class={`fa-solid ${menuOpen ? 'fa-xmark' : 'fa-bars'}`}></i>
+				☰
 			</button>
 		</div>
 	</div>

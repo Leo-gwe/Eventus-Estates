@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Hero from '../components/hero.svelte';
+	import Properties from '../components/properties.svelte';
+</script>
+
+<Hero />
+
+<div class="bg-red-500 text-white p-6 text-xl">
+  Tailwind is working
+</div>
+
