@@ -14,7 +14,7 @@
 		<div class="flex h-16 items-center justify-between">
 			<a href="/" class="flex items-center gap-3">
 				<img
-					src="/images/IMG_0142_logo.jpeg"
+					src="images/IMG_0142_logo.jpeg"
 					alt="Eventus Estates logo"
 					class="h-10 w-10 rounded-full"
 				/>

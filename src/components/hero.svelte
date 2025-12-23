@@ -7,7 +7,7 @@
 <section class="relative min-h-[70vh] w-full overflow-hidden">
 	<!-- Background image -->
 	<img
-		src="/images/IMG_1410.jpeg"
+		src="images/IMG_1410.jpeg"
 		alt="Commercial property background"
 		class="absolute inset-0 h-full w-full object-cover"
 		loading="eager"
